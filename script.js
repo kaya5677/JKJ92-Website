@@ -13,15 +13,13 @@ const appData = {
     history: "History",
     chat: "Chat",
     settings: "Settings"
-  },
-  transactions: [
-    {
-      type: "Withdrawal",
-      paymentMethod: "",
-      amount: "RM5",
-      datetime: "21 Apr 2026 11:20PM",
-      status: "Approved"
-    },
+{
+  type: "Deposit",
+  paymentMethod: "TNG",
+  amount: "RM100",
+  datetime: "22 Apr 2026 08:40PM",
+  status: "Approved"
+},
     {
       type: "Deposit",
       paymentMethod: "GXBank",
